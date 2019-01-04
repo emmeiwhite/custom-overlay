@@ -12,10 +12,10 @@
   height: 100%;
   width: 100%;
   background: #000;
-  z-index: 999;
+  z-index: -999;
   justify-content: center;
   align-items: center;
-  opacity: 0; /*opacity and transform are the 2 properties mostly used for animation*/
+  opacity: 0;
 }
 
 .overlay li {
@@ -38,3 +38,29 @@
 }
 
 /* We have set opacity of the  */
+
+.mainContent {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.mainContent .openBtn {
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  background: orange;
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  width: 15rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mainContent .content {
+  background: #ccc;
+  padding: 2rem;
+}
